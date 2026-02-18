@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ClassIQ - Clases Online</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>ClassIQ</h1>
+    <p>Educación inteligente, aprendizaje sin límites</p>
+</header>
+
+<!-- QUIÉNES SOMOS -->
+<section class="seccion">
+    <h2>¿Quiénes somos?</h2>
+    <p>
+        ClassIQ es un servicio de refuerzo académico virtual dirigido a estudiantes de 
+        2.º a 10.º de Educación General Básica, enfocado en el fortalecimiento de contenidos 
+        escolares y el acompañamiento en la realización de tareas.
+        Ofrece una atención personalizada y flexible, brindada por tutores universitarios,
+        e incorpora talleres orientados al desarrollo de habilidades de estudio, organización 
+        del tiempo, comprensión lectora y redacción básica, contribuyendo a la mejora del rendimiento académico.
+    </p>
+</section>
+
+<!-- MATERIAS -->
+<section class="seccion">
+    <h2>Materias Básicas</h2>
+    <ul>
+        <li>📘 Matemática</li>
+        <li>📗 Lengua y Literatura</li>
+        <li>🌎 Estudios Sociales</li>
+        <li>🔬 Ciencias Naturales</li>
+    </ul>
+</section>
+
+<!-- PAQUETES -->
+<section class="servicios">
+    <h2>Paquetes de Clases</h2>
+
+    <div class="paquete">
+        <h3>Paquete Básico</h3>
+        <p>4 clases al mes</p>
+        <p class="precio">$25</p>
+        <small>Horario diurno</small>
+        <button>Comprar</button>
+    </div>
+
+    <div class="paquete">
+        <h3>Paquete Intermedio</h3>
+        <p>8 clases al mes</p>
+        <p class="precio">$45</p>
+        <small>Horario diurno</small>
+        <button>Comprar</button>
+    </div>
+
+    <div class="paquete">
+        <h3>Paquete Premium</h3>
+        <p>12 clases al mes</p>
+        <p class="precio">$65</p>
+        <small>Horario diurno</small>
+        <button>Comprar</button>
+    </div>
+
+    <p style="margin-top:20px;">
+        ⚠ Servicio disponible 24/7.  
+        Las clases en horario nocturno o madrugada tienen un recargo del 15% sobre el precio base.
+    </p>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="seccion">
+    <h2>Testimonios</h2>
+    <p>Próximamente compartiremos experiencias reales de nuestros estudiantes.</p>
+</section>
+
+<!-- FORMULARIO DE CONTACTO -->
+<section class="seccion">
+    <h2>Contáctanos</h2>
+    <form>
+        <input type="text" placeholder="Nombre completo" required><br><br>
+        <input type="email" placeholder="Correo electrónico" required><br><br>
+        <input type="text" placeholder="Grado del estudiante" required><br><br>
+        <textarea placeholder="Mensaje o consulta" rows="4" required></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- PAGOS -->
+<section class="seccion">
+    <h2>Formas de Pago</h2>
+    <p>
+        Aceptamos transferencias bancarias y pagos digitales.
+        Una vez realizado el pago, se confirmará la activación del paquete contratado.
+    </p>
+    <p>
+        Para clases nocturnas o en la madrugada se aplicará un incremento del 15% 
+        sobre el valor del paquete seleccionado.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 ClassIQ - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
